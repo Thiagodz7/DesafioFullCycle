@@ -1,0 +1,13 @@
+FROM golang:alpine AS builder
+
+WORKDIR /go/src/app
+
+COPY app /go/src/app 
+
+RUN CGO_ENABLED=0 go build -o /app FulCycle.go
+
+FROM scratch
+
+COPY --from=builder /app /app
+
+CMD [ "/app" ]
