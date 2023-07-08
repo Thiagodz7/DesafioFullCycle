@@ -21,7 +21,7 @@ Compartilhe o link do repositório do Git remoto para corrigirmos seu projeto.
 Divirta-se!
 
 
-# Como Otimizei a imagem? me baseei na imagem de um integrante do github Jgustavo, e fiz essa explicação usando um pouco de Chat GPT para deixar mais claro o que foi feito:
+Como Otimizei a imagem? me baseei na imagem de um integrante do github Jgustavo, e fiz essa explicação usando um pouco de Chat GPT para deixar mais claro o que foi feito:
 
 # FROM golang:alpine AS builder
 
